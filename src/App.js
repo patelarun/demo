@@ -15,6 +15,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <h1>Hello there!</h1>
         <Router>
           <header>
             <Link to="/todo">Add Todo</Link>
