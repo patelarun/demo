@@ -31,6 +31,7 @@ export default function Todo () {
 
   return (
     <div>
+      <h1>{todo.id ? 'Update' : 'Create'}</h1>
       <form onSubmit={onSubmit}>
         <input value={todo.message} onChange={onChangeInput} />
         <button type="submit">{todo.id ? 'update' : 'add'}</button>

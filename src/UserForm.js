@@ -26,6 +26,7 @@ export default function UserForm () {
 
   return (
     <div>
+      {record.id ? 'Update' : 'Create'}
       <form onSubmit={onSubmit}>
         <div>
           <label htmlFor="name-input">Name:</label>
